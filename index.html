@@ -9,8 +9,11 @@
 </head>
 
 <body>
-  <header id="header">
-    <h1 class="name">Brian Zhao</h1>
+  <header>
+    <div class="profile">
+      <img class="header-image" src="/Assets/images/avatar.JPG" alt="recent photo">
+      <h1 class="name">Brian Zhao</h1>
+    </div>
     <nav class="nav-bar">
       <ul>
         <li><a href="#about">About Me</a></li>
@@ -24,17 +27,21 @@
   </header>
   <!-- <p class="header-img"><img src="/Assets/images/background2.jpg" alt=""></p> -->
 
-  <main>
+  <article id="about">
     <!-- img for about me -->
     <img src="" alt="">
-    <h1 id="about">About Me</h1>
+    <h1>About Me</h1>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    
-    <h1 id="work">Work</h1>
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-  </main>
+  </article>
+
+  <article id="work">
+    <h1>Work</h1>
+    <!-- <img src="/Assets/images/wwTools.jpg" alt="wood working tools">
+    <img src="/Assets/images/snowboardTools.jpg" alt="snowboarding tools">
+    <img src="" alt=""> -->
+  </article>
+
+
 
 
   
@@ -45,8 +52,8 @@
       <li>555.555.5555</li>
       <li>byxz885@gmail.com</li>
       <li><span data-desc="@brian80556839">Twitter</span></li>
-      <li>GitHub</li>
-      <li>linkedin</li>
+      <li><span data-desc="https://github.com/byxzESC">GitHub</span></li>
+      <li><span data-desc="https://www.linkedin.com/in/brian-zhao-23714825a/linkedin">Linkedin</span></li>
     </ul>
   </footer>
 </body>
