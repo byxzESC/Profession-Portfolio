@@ -92,14 +92,12 @@ header {
     text-align: center;
     font-size: 3em;
     min-width: 5.5em;
-    color: var(--secondary-color);
-    
+    color: var(--accent-color);
 }
 
 .work-pic {
     width: 100%;
     border-top: 4px solid white;
-    /* padding-left: 50px; */
 }
 
 .work-pic img {
@@ -107,16 +105,23 @@ header {
     max-width: 500px;
 }
 
+.work-pic img:hover {
+    transform: scale(1.5);
+}
+
 
 /* contact me */
 #footer {
+    font-size: 1.5rem;
     width: 100%;
     justify-content: center;
     line-height: 2rem;
+    margin-bottom: 3rem;
 }
 
-#footer h1 {
-    float: left;
+#footer h2 {
+    color: var(--accent-color);
+    font-size: 3rem;
     line-height: 4rem;
 }
 
@@ -135,7 +140,7 @@ span[data-desc]::hover::after {
     left: 0;
     background-color: var(--accent-color);
     border: 1px solid white;
-    
+
 }
 
 /* media query */
